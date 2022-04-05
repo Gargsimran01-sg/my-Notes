@@ -1,0 +1,127 @@
+body{
+  background-color: rgb(213, 224, 222);
+  color: beige;
+  margin: 0%;
+  padding: 0%;
+
+}
+
+nav{
+  background-color: rgb(58, 51, 51);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#site-name{
+  color: beige;
+  text-decoration: none;
+  font-size: 2rem;
+}
+nav li{
+  font-size: 1.2rem;
+}
+#search{
+ margin-left: auto;
+}
+
+#search-input{
+ padding:10px 5px;
+}
+
+#search-button{
+  padding: 10px  0px;
+  background-color: rgb(54, 53, 53);
+  color: beige;
+}
+/* container part of page */
+#container{
+  color:rgb(54, 53, 53) ;
+  border-bottom:2px solid rgb(136, 126, 126);
+  width: 75%;
+  margin: auto;
+  padding-bottom: 1%;
+}
+
+#container h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+#textbox{
+  border: 2px solid white;
+  width: 70%;
+  margin: auto;
+}
+
+#textbox h2{
+   padding: 0%;
+   margin: 1% 3%;
+}
+
+#titlearea{
+  margin-left: 3%;
+  width: 90%;
+
+}
+
+#textarea{
+  overflow: scroll;
+  margin-left: 3%;
+  width: 90%;
+
+}
+
+#add-btn{
+  background-color: blue;
+  color: beige;
+  padding:1% 2%;
+  margin:1% 5%;
+  border-color: bisque;
+}
+
+#note-date{
+  padding:1% 2%;
+  margin:1% 5%;
+  font-weight:bold ;
+}
+
+
+
+
+
+
+
+
+
+#container-2{
+  color:rgb(54, 53, 53) ;
+  border-bottom:2px solid rgb(136, 126, 126);
+  width: 75%;
+  margin: auto;
+  padding-bottom: 1%;
+}
+
+#container-2 h2{
+  font-size: 2rem;
+  margin-left: 5%;
+}
+
+#saved-notes{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
